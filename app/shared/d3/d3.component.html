@@ -1,0 +1,21 @@
+<p>barchart component</p> -->
+<!-- <!--  -->
+<axes></axes>
+<axes-datetime></axes-datetime>
+<barchart-simple></barchart-simple>
+<BarchartSimpleWAxes></BarchartSimpleWAxes>
+<piechart></piechart>
+
+<vbarchartwfilter></vbarchartwfilter>
+<h2>Single Stacked bar</h2>
+<button class="btn btn-blue" (click)="update()">Next</button>
+<br />
+
+<div class="container">
+  <div>
+    <single-stacked-bar [stackedData]="stackedValue"></single-stacked-bar>
+  </div>
+  <div>
+    <legends [legendData]="stackedValue"></legends>
+  </div>
+</div>

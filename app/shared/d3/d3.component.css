@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-blue {
+  background: #007A73;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  margin: 5px 0px;
+  border-radius: 3px;
+  font-family: cursive;
+  font-size: 1em;
+}
